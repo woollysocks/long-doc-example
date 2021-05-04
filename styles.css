@@ -4,9 +4,13 @@
     padding: 2px;
     box-sizing: border-box;
 }
+#header{
+  padding: 10px;
+}
+
 
 #content, html, body {
-    height: 98%;
+    height: 99.5%;
 }
 #left {
     float: left;
@@ -58,4 +62,5 @@ p:first-child:before {
   display: table-cell;
   color: #aaa;
   content: '1. '
+    margin-bottom: 15px;
 }
