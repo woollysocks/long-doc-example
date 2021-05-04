@@ -29,6 +29,7 @@ mark {
 }
 
 img {
-    width: 200px;
+    float: left;
+    width: 150px;
     height: auto;
 }
