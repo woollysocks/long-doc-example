@@ -40,3 +40,22 @@ img {
     height: auto;
     margin-right: 15px;
 }
+
+.numbered {
+  width: 200px;
+  counter-reset: custom-counter;
+}
+p {
+  display: table;
+}
+p:not(:first-child):before {
+  counter-increment: custom-counter+1;
+  content: counter(custom-counter)"... ";
+  display: table-cell;
+  color: #aaa;
+}
+p:first-child:before {
+  display: table-cell;
+  color: #aaa;
+  content: '1. '
+}
