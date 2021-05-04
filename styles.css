@@ -1,5 +1,6 @@
 #header, html, body{
     height: 10%;
+    display:flex;
     padding: 2px;
     box-sizing: border-box;
 }
@@ -29,7 +30,7 @@
 }
 
 mark {
-  background-color: skyblue;
+  background-color: #d98cd9;
   color: black;
 }
 
