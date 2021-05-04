@@ -10,7 +10,7 @@
 
 
 #content, html, body {
-    height: 98%;
+    height: 99.5%;
 }
 #left {
     float: left;
@@ -43,4 +43,5 @@ img {
     width: 150px;
     height: auto;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
