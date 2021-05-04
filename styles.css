@@ -3,14 +3,14 @@
 }
 #left {
     float: left;
-    width: 50%;
+    width: 45%;
     /*background: red;*/
     height: 100%;
     overflow: scroll;
 }
 #right {
     float: left;
-    width: 50%;
+    width: 45%;
     /*background: blue;*/
     height: 100%;
     overflow: scroll;
