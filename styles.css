@@ -20,6 +20,7 @@
     padding: 25px;
     box-sizing: border-box;
     background: #f2f2f2;
+    text-align: justify;
 }
 #right {
     float: left;
@@ -55,9 +56,11 @@ p {
 }
 p:not(:first-child):before {
   counter-increment: custom-counter+1;
-  content: counter(custom-counter)"... ";
+  content: counter(custom-counter)" ";
   display: table-cell;
   color: #aaa;
+  width: 2.3em;
+  text-align:left;
 }
 p:first-child:before {
   display: table-cell;
