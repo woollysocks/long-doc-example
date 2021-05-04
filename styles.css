@@ -1,5 +1,7 @@
 #header, html, body{
     height: 10%;
+    padding: 2px;
+    box-sizing: border-box;
 }
 
 #content, html, body {
@@ -8,11 +10,11 @@
 #left {
     float: left;
     width: 60%;
-    background: #f2f2f2;
     height: 100%;
     overflow: scroll;
     padding: 25px;
     box-sizing: border-box;
+    background: #f2f2f2;
 }
 #right {
     float: left;
@@ -21,6 +23,9 @@
     overflow: scroll;
     padding: 25px;
     box-sizing: border-box;
+    border-style: solid;
+    border-color: lightgray;
+    border-width:thin;
 }
 
 mark {
@@ -32,4 +37,5 @@ img {
     float: left;
     width: 150px;
     height: auto;
+    margin-right: 15px;
 }
