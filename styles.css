@@ -3,15 +3,17 @@
 }
 #left {
     float: left;
-    width: 45%;
+    width: 50%;
     /*background: red;*/
     height: 100%;
     overflow: scroll;
+    border-radius:10px;
 }
 #right {
     float: left;
-    width: 45%;
+    width: 50%;
     /*background: blue;*/
     height: 100%;
     overflow: scroll;
+    border-radius:10px;
 }
