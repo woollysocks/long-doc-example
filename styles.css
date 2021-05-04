@@ -4,14 +4,14 @@
 #left {
     float: left;
     width: 50%;
-    background: red;
+    /*background: red;*/
     height: 100%;
     overflow: scroll;
 }
 #right {
     float: left;
     width: 50%;
-    background: blue;
+    /*background: blue;*/
     height: 100%;
     overflow: scroll;
 }
