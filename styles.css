@@ -1,9 +1,9 @@
-#header, html, body{
+#header, html, head{
     height: 10%;
 }
 
 #content, html, body {
-    height: 90%;
+    height: 98%;
 }
 #left {
     float: left;
