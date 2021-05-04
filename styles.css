@@ -4,6 +4,10 @@
     padding: 2px;
     box-sizing: border-box;
 }
+#header{
+  padding: 10px;
+}
+
 
 #content, html, body {
     height: 98%;
